@@ -27,7 +27,7 @@ Pour la realisation nous avons utilisé ElectronJS.
 ElectronJS est un framework opensource dedié à la creation des applications pour ordinateurs en utilisant les technologies du web.
 Organisation de notre projet : 
 
-![alt text](./images/chronocross/repar.png)
+![alt text](./images/chronocross/reports-daily.png)
 - le fichier electronbrowser.js permet d'evaluer les evenements evenements de la fenetre et de faire les actions requises pour chaque evenement. Son contenu est le suivant : 
 
 ```vue
