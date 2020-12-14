@@ -19,7 +19,7 @@ En résumé un Navigateur web permet d'acceder aux pages web et le moteur de rec
   - Le client (Navigateur) envoie l'url au serveur 
   - Le serveur retourne une page web
 
-![alt text](./images/chronocross/FR-browser.png)
+![alt text](./images/chronocross/eisenhower.png)
 ### Realisation du Projet 
 
 Pour la realisation nous avons utilisé ElectronJS.
@@ -243,5 +243,5 @@ dev.addEventListener('click', handleDevtools);
 
 #### Resultats
 
-![alt text](./images/chronocross/nav.png)
+![alt text](./images/chronocross/eisenhower-do-it.png)
 
