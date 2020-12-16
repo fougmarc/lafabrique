@@ -5,8 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'La fabrique | Blog',
-  siteDescription: 'Fougnigué Soro\' website. Software Engineer, Software Developer, Web Developer, Full-stack engineer. Clean Code advocate. DevOps..',
+  siteName: 'La Fabrique  | Blog',
+  siteDescription: 'Fougnigué Soro\' website. Software Engineer, Software Developer, Web Developer, Full-stack engineer. Clean Code advocate. DevOps.',
+  siteUrl: 'https://5fd9c7a60bf0a29cb26cb64c--dreamy-khorana-22de55.netlify.app/',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -41,8 +42,9 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'la fabrique | Blog',
-         
+          title: 'Fougnigué Soro | Blog',
+          feed_url: 'https://www.josephharveyangeles.com/rss.xml',
+          site_url: 'https://5fd9c7a60bf0a29cb26cb64c--dreamy-khorana-22de55.netlify.app/'
         },
         feedItemOptions: node => ({
           title: node.title,
