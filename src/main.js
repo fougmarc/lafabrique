@@ -20,7 +20,7 @@ export default function (Vue, { router, head, isClient }) {
 
   Vue.use(VueTypedJs)
 
-  Vue.use(VueDisqus, { shortname: 'josephharveyangeles' })
+  Vue.use(VueDisqus, { shortname: 'Fougnigué Soro' })
 
   head.meta.push({
     name: 'keywords',
@@ -29,12 +29,12 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Joseph Harvey Angeles\' website. Software Engineer, Software Developer, Web Developer, Full-stack engineer. Clean Code advocate. DevOps. He likes cats.'
+    content: 'Fougnigué Soro \' website. Software Engineer, Software Developer, Web Developer, Full-stack engineer. Clean Code advocate. DevOps. He likes cats.'
   })
 
   head.meta.push({
     name: 'author',
-    content: 'Joseph Harvey Angeles'
+    content: 'Fougnigué Soro'
   })
 
   head.link.push({

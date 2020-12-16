@@ -5,9 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Joseph Harvey Angeles | Personal Portfolio',
-  siteDescription: 'Joseph Harvey Angeles\' website. Software Engineer, Software Developer, Web Developer, Full-stack engineer. Clean Code advocate. DevOps. He likes cats.',
-  siteUrl: 'https://www.josephharveyangeles.com',
+  siteName: 'La fabrique | Blog',
+  siteDescription: 'Fougnigué Soro\' website. Software Engineer, Software Developer, Web Developer, Full-stack engineer. Clean Code advocate. DevOps..',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -42,15 +41,14 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Joseph Harvey Angeles | Blog',
-          feed_url: 'https://www.josephharveyangeles.com/rss.xml',
-          site_url: 'https://www.josephharveyangeles.com/'
+          title: 'la fabrique | Blog',
+         
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'https://www.josephharveyangeles.com' + node.path,
-          author: 'Joseph Harvey Angeles',
+         
+          author: 'Fougnigué Soro',
           date: node.date
         }),
         output: {
