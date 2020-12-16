@@ -47,7 +47,7 @@ module.exports = {
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-         
+          url: 'https://5fd9c7a60bf0a29cb26cb64c--dreamy-khorana-22de55.netlify.app/' + node.path,
           author: 'Fougnigué Soro',
           date: node.date
         }),
