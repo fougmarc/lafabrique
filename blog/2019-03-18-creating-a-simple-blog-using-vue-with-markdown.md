@@ -1,7 +1,7 @@
 ---
 title: Logiciel libre vs logiciel proprietaires vs open source
 path: /creating-a-simple-blog-using-vue-with-markdown
-date: 2019-03-18
+date: 2020-01-05
 
 tags: ['learnings']
 ---
